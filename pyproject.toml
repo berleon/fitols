@@ -7,7 +7,7 @@ classifiers=[
     'Programming Language :: Python :: 3.9',
     'Programming Language :: Python :: 3.10',
 ]
-authors = ["Leon Sixt <leon.sixt@gmail.com>"]
+authors = ["Leon Sixt <github@leon-sixt.de>"]
 description = "Skeleton project created by Cookiecutter PyPackage."
 homepage = "https://github.com/berleon/fitols"
 license = "MIT"
@@ -84,3 +84,39 @@ use_parentheses = true
 [build-system]
 build-backend = "poetry.core.masonry.api"
 requires = ["poetry-core>=1.0.0"]
+
+
+[tool.mypy]
+python_version = 3.9
+check_untyped_defs = true
+disallow_incomplete_defs = true
+disallow_untyped_calls = false
+disallow_untyped_decorators = true
+no_implicit_optional = true
+show_error_codes = true
+strict_optional = true
+warn_redundant_casts = true
+warn_return_any = false
+warn_unused_configs = true
+warn_unused_ignores = true
+
+
+[[tool.mypy.overrides]]
+module = [
+    "anyconfig",
+    "b2sdk",
+    "b2sdk.*",
+    "b2sdk.v2",
+    "coverage",
+    "cookiecutter",
+    "cookiecutter.*",
+    "cpuinfo",
+    "matplotlib",
+    "pandas",
+    "reproducible",
+    "setuptools",
+    "sklearn",
+    "sklearn.*",
+    "typing_inspect",
+]
+ignore_missing_imports = true

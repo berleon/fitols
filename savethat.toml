@@ -9,11 +9,11 @@ b2_prefix="fitols"
 # this will use a simulation of B2, your files will not be uploaded.
 use_b2_simulation=true
 
-# To setup B2, set `use_b2_simulation = false` and fill the following:
-# https://www.backblaze.com
+# To setup Backblaze, set `use_b2_simulation = false` and fill the following:
 #
-# b2_key_id="B2 Key ID"
-# b2_key="B2 Key"
+# b2_key_id="B2 Key ID (skip if you don't want to sync)"
+# b2_key="B2 Key (skip if you don't want to sync)"
 # name of the B2 bucket
-# b2_bucket="B2 Bucket"
+# b2_bucket="B2 Bucket (skip if you don't want to sync)"
 #
+# For help on application keys, see: https://www.backblaze.com/b2/docs/application_keys.html
