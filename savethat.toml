@@ -1,0 +1,19 @@
+# Default config file for savethat
+
+# save local data at this path
+local_path="${PROJECT_ROOT}/data"
+# prefix for this project
+b2_prefix="fitols"
+
+
+# this will use a simulation of B2, your files will not be uploaded.
+use_b2_simulation=true
+
+# To setup B2, set `use_b2_simulation = false` and fill the following:
+# https://www.backblaze.com
+#
+# b2_key_id="B2 Key ID"
+# b2_key="B2 Key"
+# name of the B2 bucket
+# b2_bucket="B2 Bucket"
+#
