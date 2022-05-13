@@ -1,4 +1,4 @@
-"""Top-level package for fitols."""
+"""Top-level package for FitOLS."""
 
 __author__ = """Leon Sixt"""
 __email__ = 'github@leon-sixt.de'

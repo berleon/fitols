@@ -1,14 +1,12 @@
-# fitols
+# FitOLS
 
 
-[![pypi](https://img.shields.io/pypi/v/fitols.svg)](https://pypi.org/project/fitols/)
-[![python](https://img.shields.io/pypi/pyversions/fitols.svg)](https://pypi.org/project/fitols/)
 [![Build Status](https://github.com/berleon/fitols/actions/workflows/dev.yml/badge.svg)](https://github.com/berleon/fitols/actions/workflows/dev.yml)
 [![codecov](https://codecov.io/gh/berleon/fitols/branch/main/graphs/badge.svg)](https://codecov.io/github/berleon/fitols)
 
 
 
-Skeleton project created by Cookiecutter PyPackage
+Examplary realization of the savethat_cookiecutter template
 
 
 * Documentation: <https://berleon.github.io/fitols>

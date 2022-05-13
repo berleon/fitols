@@ -1,4 +1,4 @@
-* fitols version:
+* FitOLS version:
 * Python version:
 * Operating System:
 

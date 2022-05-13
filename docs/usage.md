@@ -1,6 +1,6 @@
 # Usage
 
-To use fitols in a project
+To use FitOLS in a project
 
 ```
 import fitols

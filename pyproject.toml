@@ -8,7 +8,7 @@ classifiers=[
     'Programming Language :: Python :: 3.10',
 ]
 authors = ["Leon Sixt <github@leon-sixt.de>"]
-description = "Skeleton project created by Cookiecutter PyPackage."
+description = "Examplary realization of the savethat_cookiecutter template."
 homepage = "https://github.com/berleon/fitols"
 license = "MIT"
 name = "fitols"

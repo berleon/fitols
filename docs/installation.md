@@ -2,21 +2,21 @@
 
 ## Stable release
 
-To install fitols, run this command in your
+To install FitOLS, run this command in your
 terminal:
 
 ``` console
 $ pip install fitols
 ```
 
-This is the preferred method to install fitols, as it will always install the most recent stable release.
+This is the preferred method to install FitOLS, as it will always install the most recent stable release.
 
 If you don't have [pip][] installed, this [Python installation guide][]
 can guide you through the process.
 
 ## From source
 
-The source for fitols can be downloaded from
+The source for FitOLS can be downloaded from
 the [Github repo][].
 
 You can either clone the public repository:
